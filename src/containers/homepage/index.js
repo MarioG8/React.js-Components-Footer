@@ -1,10 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Footer } from '../../components/footer';
-import { MoreAboutSection } from './moreAboutSection';
-import { ReviewsSection } from './reviewsSection';
-import { ServicesSection } from './servicesSection';
-import TopSection from './topSection';
+import { MainSection } from './mainSection';
 
 const PageContainer = styled.div`
   width: 100%;
@@ -16,10 +13,7 @@ const PageContainer = styled.div`
 export const Homepage = (props) => {
   return (
     <PageContainer>
-      <TopSection />
-      <ServicesSection />
-      <ReviewsSection />
-      <MoreAboutSection />
+      <MainSection />
       <Footer />
     </PageContainer>
   );

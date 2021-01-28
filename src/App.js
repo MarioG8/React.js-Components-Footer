@@ -1,10 +1,10 @@
-import { FooterContainer } from './components/Footer';
+import { Homepage } from './containers/homepage';
 
-function App() {
+function App(props) {
   return (
-    <>
-      <FooterContainer />
-    </>
+    <div>
+      <Homepage />
+    </div>
   );
 }
 
