@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Footer } from '../../components/footer';
+import { SecondF } from '../../Footer/Footer';
 import { MainSection } from './mainSection';
+import '../../Footer/Footer.css';
 
 const PageContainer = styled.div`
   width: 100%;
@@ -15,6 +17,7 @@ export const Homepage = (props) => {
     <PageContainer>
       <MainSection />
       <Footer />
+      <SecondF />
     </PageContainer>
   );
 };
