@@ -1,10 +1,13 @@
 import { Homepage } from './containers/homepage';
+import SecondF from './Footer/SecondF';
+import { BrowserRouter } from 'react-router-dom';
 
 function App(props) {
   return (
-    <div>
+    <BrowserRouter>
       <Homepage />
-    </div>
+      <SecondF />
+    </BrowserRouter>
   );
 }
 
